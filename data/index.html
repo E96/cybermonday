@@ -15,6 +15,15 @@
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54VRKH');</script>
+<script type="text/javascript">
+    var links = document.getElementsByTagName('a');
+    var getParams = location.search;
+    if (getParams) {
+        for (index = 0; index < links.length; index ++) {
+            links[index].search = getParams;
+        }
+    }
+</script>
 <!-- End Google Tag Manager -->
 <div class="wrapper">
     <div class="logo">
